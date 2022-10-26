@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
-st.markdown("# Smart Marketing")
-# st.image('Loan.png')
+# st.markdown("# Smart Marketing")
+st.image('Marketing.jpeg')
 st.markdown("""
 ### About us
 The background of this project is based on telemarketing data from the Bank of Portugal, which we use to improve marketing efficiency through data analysis and machine learning. Through data analysis, we understand the needs of customers and predict whether users are likely to buy savings products through machine learning and according to the social and economic situation of customers and the time.
