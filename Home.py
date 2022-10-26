@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
-st.markdown("# Intelligent Loan System")
+st.markdown("# Smart Marketing")
 # st.image('Loan.png')
 st.markdown("""
 ### About us
