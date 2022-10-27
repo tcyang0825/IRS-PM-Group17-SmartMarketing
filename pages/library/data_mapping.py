@@ -15,7 +15,7 @@ def DATA_MAPPING_SVC(data):
 
     df = pd.read_csv(file_path, sep=';', na_values=na_values)
 
-    ### Drop na values
+    # Drop na values
     dropped = df.dropna()
     count = df.shape[0] - dropped.shape[0]
     # print("Missing Data: {} rows removed.".format(count))
@@ -30,11 +30,7 @@ def DATA_MAPPING_SVC(data):
 
     nominal = ['job','marital','education','contact','month','day_of_week']
     df = pd.get_dummies(df, columns=nominal)
-
-
     # In[3]:
-
-
     pro_att_name = ['age'] # ['race', 'sex']
     priv_class = [1] # ['White', 'Male']
     reamining_cat_feat = []
@@ -55,7 +51,7 @@ def DATA_MAPPING_RANDOM(data):
 
     df = pd.read_csv(file_path, sep=';', na_values=na_values)
 
-    #### Drop na values
+    # Drop na values
     dropped = df.dropna()
     count = df.shape[0] - dropped.shape[0]
     # print("Missing Data: {} rows removed.".format(count))
@@ -72,14 +68,4 @@ def DATA_MAPPING_RANDOM(data):
     reamining_cat_feat = ['loan']
     y1_data_orig, y1_X, y1_y = load_bank_data(df, pro_att_name, priv_class, reamining_cat_feat)
     return [y1_X[-1]]
-
-L = [27, np.nan, np.nan, 'basic.4y', 'no', 'no', 'no', 'cellular', 'mar', 'mon', 0, 5, 999, 0, 'failure', 0.0, 0.0, 0.0, 1.0, 5000]
-
-"""L = [17, np.nan, np.nan, 'university.degree', 'yes', 'yes', 'yes',
-     'cellular', 'aug', 'wed', 0, 5, 999, 0, 'success', -0.1,
-     94.199, -40.3, 0.944, 4963.6]"""
-l = DATA_MAPPING_SVC(L)
-print(len(l[0]))
-a = joblib.load('pages/model/SVC.pkl')
-print(a.predict(l))
 
