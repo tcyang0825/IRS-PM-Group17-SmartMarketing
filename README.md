@@ -18,10 +18,10 @@ SMARTMARKETING helps companies using this product to achieve cost savings by usi
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Yang Tiancheng | A0261626E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| E0983020@nus.edu.sg |
-| Song Enyu | A0261704L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Tian Qingyun | A0261777R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Zhang Junmengyang | A0261791Y | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
+| Yang Tiancheng | A0261626E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| E0983020@u.nus.edu |
+| Song Enyu | A0261704L | Use streamlit design system| E0983098@u.nus.edu |
+| Tian Qingyun | A0261777R | Improve model accuracy| E0983171@u.nus.edu |
+| Zhang Junmengyang | A0261791Y | Background Research | e0983185@u.nus.edu |
 
 ---
 
@@ -29,8 +29,6 @@ SMARTMARKETING helps companies using this product to achieve cost savings by usi
 
 [![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
 
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
 
 ---
 
@@ -38,65 +36,35 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
-### [ 1 ] To run the system using iss-vm
+### [ 1 ] change direction into IRS-PM-Group17-SmartMarketing folder:
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+> (project) $ cd IRS-PM-Group17-SmartMarketing
 
-> start iss-vm
 
-> open terminal in iss-vm
+### [ 2 ] Install relying library
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
+### Install additional necessary libraries. This application works in python 3.8.
+> (project) $ pip install -r requirement.txt
 
-> $ source activate iss-env-py2
 
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+### [ 3 ] To run the system in other/local machine:
 
-> (iss-env-py2) $ python app.py
-
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+> (project) $ streamlit run Home.py
+**Go to URL using web browser** http://localhost:8501
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 `Refer to project report at Github Folder: ProjectReport`
 
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
-
 ---
 ## SECTION 7 : MISCELLANEOUS
 
 `Refer to Github Folder: Miscellaneous`
 
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
+### bank-additional.csv
+### bank-additional-full.csv
+### bank-additional-names.txt
 
 ---
 
