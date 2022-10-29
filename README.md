@@ -18,7 +18,7 @@ SMARTMARKETING helps companies using this product to achieve cost savings by usi
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Yang Tiancheng | A0261626E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| E0983020@u.nus.edu |
+| Yang Tiancheng | A0261626E | Do data pre-processing, train model and write API interface| E0983020@u.nus.edu |
 | Song Enyu | A0261704L | Use streamlit design system| E0983098@u.nus.edu |
 | Tian Qingyun | A0261777R | Improve model accuracy| E0983171@u.nus.edu |
 | Zhang Junmengyang | A0261791Y | Background Research | e0983185@u.nus.edu |
