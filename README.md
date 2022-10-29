@@ -27,7 +27,16 @@ SMARTMARKETING helps companies using this product to achieve cost savings by usi
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
+`Business Background`
+
+[![Group5](https://i9.ytimg.com/vi_webp/xnhhvJT0mN0/mqdefault.webp?v=635d0b60&sqp=CLSW9JoG&rs=AOn4CLBMsawbu24QbZkwyHH8DwjwO9n_ow)](https://youtu.be/xnhhvJT0mN0 "Group5")
+
+`Systen Design`
+
+[![Group5](https://i9.ytimg.com/vi_webp/JhPGKFyjU1c/mq1.webp?sqp=CIiU9JoG-oaymwEmCMACELQB8quKqQMa8AEB-AHSCIAC0AWKAgwIABABGD0gUCh_MA8=&rs=AOn4CLBjC4elAlU9T2iWfD4PU8FnqfJ0gA)](https://youtu.be/JhPGKFyjU1c "Group5")
+
+
+
 
 
 ---
